@@ -36,6 +36,5 @@ Commande pour lancer le jeu :
 
 Autres détails :
 -----------------
-    Projet TIPE de prépa à la base hein, donc le but c’était de démontrer un théorème 🧍‍♀️ 
-    et de faire des stats au passage.
+    Projet TIPE de prépa à la base hein, donc le but c’était de démontrer un théorème 🧍‍♀️ et de faire des stats au passage.
     WOMC : WithOut MonteCarlo
