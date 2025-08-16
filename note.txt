@@ -1,0 +1,40 @@
+Puissance 4 – TIPE 2023-2024
+
+Description :
+---------------
+    Ce programme est un jeu de Puissance 4 en Python, jouable dans le terminal.
+
+    Deux modes de jeu sont proposés :
+    - 1v1 : deux joueurs humains
+    - 1vBot : un joueur contre une IA avec plusieurs niveaux de difficulté
+
+Caractéristiques :
+------------------
+    - Affichage coloré du plateau dans le terminal (rouge, jaune, bleu)
+    - Détection automatique de victoire (horizontale, verticale, diagonale)
+    - Gestion de l'égalité (plateau plein sans gagnant)
+    - IA avec différents niveaux :
+        - Facile / Moyen : IA basée sur l’évaluation des coups
+        - Difficile : IA utilisant l’algorithme Minimax avec élagage alpha-bêta
+        - MonteCarlo (que j’ai pas fini 🫩)
+
+Dépendances :
+----------------
+    Le programme utilise les bibliothèques suivantes :
+    - numpy
+    - termcolor
+
+Commande pour lancer le jeu :
+------------------------------
+    Assurez-vous d’avoir un environnement Python avec les dépendances installées :
+
+        pip install -r requirements.txt
+
+    Puis lancez le fichier principal :
+
+        python "Puissance 4 TIPE WOMC.py"
+
+Autres détails :
+-----------------
+    Projet TIPE de prépa à la base hein, donc le but c’était de démontrer un théorème 🧍‍♀️ 
+    et de faire des stats au passage.
