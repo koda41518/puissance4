@@ -6,7 +6,7 @@ Description :
 
     Deux modes de jeu sont proposés :
     - 1v1 : deux joueurs humains
-    - 1vBot : un joueur contre une IA avec plusieurs niveaux de difficulté
+    - 1vBot : un joueur contre une IA  avec plusieurs niveaux de difficulté
 
 Caractéristiques :
 ------------------
@@ -14,19 +14,19 @@ Caractéristiques :
     - Détection automatique de victoire (horizontale, verticale, diagonale)
     - Gestion de l'égalité (plateau plein sans gagnant)
     - IA avec différents niveaux :
-        - Facile / Moyen : IA basée sur l’évaluation des coups
-        - Difficile : IA utilisant l’algorithme Minimax avec élagage alpha-bêta
+        - Facile / Moyen : IA basée sur l’évaluation des coups 
+        - Difficile : IA utilisant l’algorithme Minimax ✨ avec élagage alpha-bêta
         - MonteCarlo (que j’ai pas fini 🫩) 
 
 Dépendances :
 ----------------
     Le programme utilise les bibliothèques suivantes :
-    - numpy
-    - termcolor
+    - numpy (pour la matrice ☝️🤓)
+    - termcolor (pacque c est joli 🧚‍♀️ )
 
 Commande pour lancer le jeu :
 ------------------------------
-    Assurez-vous d’avoir un environnement Python avec les dépendances installées :
+    Faut avoir un environnement Python avec les dépendances installées :
 
         pip install -r requirements.txt
 
