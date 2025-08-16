@@ -16,7 +16,7 @@ Caractéristiques :
     - IA avec différents niveaux :
         - Facile / Moyen : IA basée sur l’évaluation des coups
         - Difficile : IA utilisant l’algorithme Minimax avec élagage alpha-bêta
-        - MonteCarlo (que j’ai pas fini 🫩)
+        - MonteCarlo (que j’ai pas fini 🫩) 
 
 Dépendances :
 ----------------
@@ -38,3 +38,4 @@ Autres détails :
 -----------------
     Projet TIPE de prépa à la base hein, donc le but c’était de démontrer un théorème 🧍‍♀️ 
     et de faire des stats au passage.
+    WOMC : WithOut MonteCarlo

@@ -361,10 +361,12 @@ def strategie(difficulte, M, gamer) -> int:
     col, minimax_score = minimax(M, depth, -np.inf, np.inf, True, gamer)
     return col
 
+
+#la boucle de jeu  ------------------------------------------------------------------------------------
 Game_Over = False
 while True:
     try:
-        joueur = int(input('Tapez 2 pour jouer 1v1, 1 pour jouer contre le bot: '))
+        joueur = int(input('Sélectionnez soit 1 pour jouez contre un bot soit 2 pour jouer 1v1 :  '))
         if joueur == 1 or joueur == 2: 
             break
 
@@ -377,8 +379,8 @@ if joueur == 2:
     print("Vous avez choisi de jouer a deux")
 else:
     print('Vous avez choisi de jouer contre le bot')
-    difficulte = input("Facile, Moyen, Difficile ou MonteCarlo: ").lower()
-    print("vous avez choisi niveau  (apart montecarlo 🫩) ", difficulte)
+    difficulte = input("choisi un niveau Facile, Moyen, Difficile ou MonteCarlo (apart montecarlo 🫩): ").lower()
+    print("vous avez choisi niveau   ", difficulte)
    
 while not Game_Over:
     s = np.sum(M)
@@ -409,8 +411,8 @@ while not Game_Over:
     #plus de monte carlo fhad le code   🫩
     # la y a le elif montecarlo de baaaase mais non  🫩
     else:
+        print(CYAN +f"je te conseille la colonne : {cleMAX + 1} "+ RESET)
         print(gamer.get_color() + gamer.get_name() + RESET, "choisissez une colonne entre 1 et 7: ")
-        print(CYAN +f"je te conseille la colonne :  {cleMAX + 1} "+ RESET)
         while True:
             try:
                 coloneChoisie = int(input()) - 1
